@@ -1,11 +1,19 @@
+
 body {    
-    font-family: "Roboto",
-       sans-serif;
-       color: #434455;
-       background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+   background-color: #fff;
+   
+   
 }
-.header-conteiner {
- margin: auto;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+ margin: 0;
 }
 
 a {
@@ -14,34 +22,72 @@ a {
 
 ul, ol {
    list-style: none;
+   padding: 0;
+   margin: 0;
+}
+
+img {
+   display: block;
+   max-width: 100%;
+   height: auto;
 }
 
 address {
-  list-style: none;
-} 
+   font-style: normal;
+}
+
+.header {
+   border-bottom: 1px solid #E7E9FC;
+}
+
+.container {
+   width: 1158px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+
+
+.header-container {
+   display: flex;
+   align-items: center;
+}
+
+.navigation {
+   display: flex;
+   align-items: center;
+}
 
 .logo {
+   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
      font-weight: 700;
      font-size: 18px;
      line-height: 1.17;
      letter-spacing: 0.03em;
      text-transform: uppercase;
-     color: #4d5ae5;
-     cursor: pointer;
+     margin-right: 76px;
+     
 }
 
 .logo-part {
   color: #2e2f42;
 }
 
+.nav-list {
+   display: flex;
+   gap: 40px;
+}
+
 .nav-link {
+   color: #2e2f42;
      font-weight: 500;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     color: #2e2f42;
+     padding: 24px;
+     display: block;
 }
+
 .nav-link:hover,
 .nav-link:focus {
   color: #404BBF;
@@ -49,13 +95,21 @@ address {
 
 .address {
   font-style: normal;
+  margin-left: auto;
+  
+}
+
+.address-list {
+   display: flex;
+   gap: 40px;
 }
 
 .address-link {
+   color: #434455;
   font-size: 16px;
-     line-height: 1.5;
-     letter-spacing: 0.02em;
-     color: #434455;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+     
 }
 
 .address-link:hover,
@@ -63,10 +117,22 @@ address {
   color: #404BBF;
 }
 
+/*--Hero--*/
 
 .hero-section {
- width: 1440px;
-   height: px;
+   border: 1px solid #404bbf;
+   padding: 0px;
+ 
+}
+.hr-container {
+   width: 1440px;
+   height: 400px;
+   padding-top: 120px;
+   padding-bottom: 1px;
+   margin: 0px;
+}
+
+.hero-conteiner {
    background: #2e2f42;
 }
 
@@ -77,6 +143,10 @@ address {
    letter-spacing: 0.02em;
    text-align: center;
    color: #fff;
+   width: 496px;
+   height: 120px;
+   margin: auto;
+   padding: 0px;
 }
 
 .hero-buy-button {
@@ -86,10 +156,12 @@ address {
    letter-spacing: 0.04em;
    text-align: center;
    color: #fff;
+   background: blue;
 }
+
 .hero-conteiner-button {
- width: Hug (169px);
-  height: Hug (56px);
+ width: Hug 169px;
+  height: Hug 56px;
    top: 428px;
   left: 636px;
    padding: 16px, 32px, 16px, 32px;
@@ -97,23 +169,72 @@ address {
      gap: 10px;
  text-align: center;
  cursor: pointer;
-
+ box-shadow: 0 4px 4px 0, rgba 0, 0, 0, 0.15;
+ margin-top: 40px;
 }
+
+/*--Skill--*/
 
 .skills-section {
- 
+   border: 1px solid #ffff;
+   width: 1440px;
+   height: 300px;
 }
 
-.hideness {
+.sk-conteiner {
+   border: 1px solid #ffff;
+   display: block;
+   display: flex;
+   gap: 1px;
+   align-items: center;
+   width: 1140px;
+   height: 104px;
+   padding-left: 100px;
+   margin-top: 100px;
+   
+}
+
+.skills-conteiner {
+   display: block;
+   display: flex;
+   align-items: center;
+   
 
 }
+
+
 
 .skills-list {
+   margin: 0px;
+   padding-left: 0;
+   display: flex;
+   gap: 4px;
  
+}
+
+.skil-paragraf-conteiner {
+   border: 1px solid #404bbf;
+   display: block;
+   display: flex;
+   width: 264px;
+   height: 102px;
+   margin-right: 24px;
+   padding: opx;
 }
 
 .skills-item {
+   padding: auto;
+   margin: opx;
+   display: flex;
+   align-items: center;
  
+}
+.skil-sab-text-cont {
+   display: block;
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+
 }
 
 .skil-sabtitle {
@@ -122,6 +243,10 @@ address {
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
+   margin: auto;
+   margin-top: 1px;
+   padding-left: 0px;
+   
 }
 
 .skills-item-text {
@@ -129,13 +254,33 @@ address {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
+   margin: 0;
+   padding: 0px;
+  
 }
 
-
+/*--Tem--*/
 
 .tem-section {
- 
-   background: #f4f4fd;
+   border: 1px solid #404bbf;
+   width: 1440px;
+   height: 732px;
+   padding: 0 15px;
+   margin: 10 5px;
+}
+
+.our-conteiner {
+   background-color: #f4f4fd;
+   width: 1128px;
+   padding: 0 50px;
+   margin-top: 200px;
+   display: block;
+   text-align: center;
+}
+
+.tem-conteiner {
+   display: flex;
+   align-items: center;
 }
 
 .tem-title {
@@ -145,28 +290,50 @@ address {
    letter-spacing: 0.02em;
    text-align: center;
    color: #2e2f42;
+   margin-top: 200 0 0 0px;
 }
 
 .tem-list {
- 
+   margin: 0;
+   padding-left: 0;
+   display: flex;
+   gap: 20px;
+}
+
+.cart-conteiner {
+   max-width: 270;
+ border-radius: 0 0 2px 2px;
+   padding: 0px 0px 32px 0px;
+   background-color: #fff;
+   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+   display: flex;
+   margin-top: 60 5 10 5px;
 }
 
 .tem-item {
- border-radius: 0 0 4px 4px;
-   padding: 0px 0px 32px 0px;
-   background: #fff;
+   
 }
 
 .tem-imeges {
- 
+   display: block;
 }
-.sab-title-item{
+.text-conteiner {
+   display: block;
+   width: 232px;
+   height: 56px;
+   margin: 10;
+   padding: 5;
+}
+
+.sab-title-item {
  font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
    text-align: center;
    color: #2e2f42;
+   margin: 0;
+   padding: 0;
 }
 
 .tem-item-text {
@@ -175,14 +342,37 @@ address {
    letter-spacing: 0.02em;
    text-align: center;
    color: #434455;
+   margin: 0;
+   padding: 0px;
+   
 }
 
-
+/*--Portfolio--*/
 
 .portfolo-section {
- 
+   border: 1px solid #404bbf;
+   width: 1440px;
+   padding: 0px;
+   margin: 0px;
+}
+.portfolo-section-conteiner {
+   background-color: #f4f4fd;
+   width: 1128px;
+   padding: 5px;
+   margin:5px;
+   display: block;
+   text-align: center;
 }
 
+.portfolo-group-conteiner{
+   display: block;
+   text-align: center;
+   margin: 5;
+   padding: 10px;
+}
+.portf-cart-conteiner {
+   padding-left: 0px;
+}
 .portfolio-title {
  font-weight: 700;
    font-size: 36px;
@@ -190,9 +380,14 @@ address {
    letter-spacing: 0.02em;
    text-align: center;
    color: #2e2f42;
+   margin: 0;
 }
 
 .portfolio-list {
+   margin: 0;
+   padding-left: 0;
+   display: flex;
+   gap: 20px;
  
 }
 
@@ -203,13 +398,20 @@ address {
 .portfolio-imeges {
  
 }
+.port-cont-text {
+   margin: auto;
+   margin-top: 1px;
+   padding-left: 0px;
+}
 
-.portf-sabtitle{
+.portf-sabtitle {
  font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
+   margin: 0;
+   padding-left: 0px;
 }
 
 .portfolio-item-text {
@@ -217,21 +419,33 @@ address {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
+   margin: 0;
 }
 
-
+/*--Footer--*/
 
 .footer-section {
  width: 1440px;
-   height: px;
+   height: 312px;
    background: #2e2f42;
+   margin: auto;
 }
 
+.footer-conteiner {
+   border: 1px solid #404bbf;
+   width: 264px;
+   height: 112px;
+   padding: 1px;
+   margin: 200px;
+   
+}
 .footer-text {
- Size: 16px;
- Line height: 24px;
+ font-size: 16px;
+ line-height: 24px;
  letter-spacing: 0.02em;
  color: #F4F4FD;
+ margin: 0px;
+ padding: 0px;
 }
 
 .footer-link {
@@ -244,7 +458,7 @@ address {
    color: #F4F4FD;
 }
 
-.footer-logo-color{
+.footer-logo-color {
    color: #4D5AE5;
    cursor: pointer;
 }
