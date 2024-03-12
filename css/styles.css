@@ -176,10 +176,10 @@ address {
 /*--Skill--*/
 
 .skills-section {
-   border: 1px solid #ffff;
    width: 1440px;
-   height: 300px;
+   height: 106px;
    padding: 120 0px;
+   margin:120px 0px;
 }
 
 .sk-conteiner {
@@ -189,10 +189,9 @@ address {
    gap: 1px;
    align-items: center;
    width: 1140px;
-   height: 106px;
-   padding: 0px;
-   margin-top: 100px;
-   margin-left: 150px;
+   height: 104px;
+   padding: 0 0px;
+   margin-left: 150px; 
    
 }
 
@@ -215,7 +214,7 @@ address {
 }
 
 .skil-paragraf-conteiner {
-   border: 1px solid #404bbf;
+   border: 1px solid #ffff;
    display: block;
    display: flex;
    width: 264px;
@@ -268,8 +267,8 @@ address {
    border: 1px solid #ffff;
    width: 1440px;
    height: 732px;
-   padding: 120 0px;
-   margin: 10 5px;
+   padding-top: 120px;
+   
 }
 
 .our-conteiner {
@@ -356,10 +355,7 @@ address {
 /*--Portfolio--*/
 
 .portfolo-section {
-   border: 1px solid #ffff;
-   width: 1440px;
-   padding: 120 0px;
-   margin: 0px;
+   padding: 120px 0;
 }
 .portfolo-section-conteiner {
    background-color: #f4f4fd;
@@ -372,8 +368,8 @@ address {
 
 .portfolo-group-conteiner{
    display: block;
-   margin: 5;
-   padding: 10px;
+   margin: 100px 30px;
+   padding: o;
 }
 .portf-cart-conteiner {
    margin-left: 0px;
@@ -434,11 +430,9 @@ address {
 /*--Footer--*/
 
 .footer-section {
- width: 1440px;
-   height: 312px;
+   width: 1440px;
    background: #2e2f42;
-   margin: opx;
-   padding: 120 0px;
+   padding: 100px 0;
 }
 
 .footer-conteiner {
@@ -466,6 +460,8 @@ address {
    letter-spacing: 0.03em;
    text-align: left;
    color: #F4F4FD;
+   display: inline-block;
+   margin-bottom: 16px;
 }
 
 .footer-logo-color {
