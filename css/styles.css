@@ -179,6 +179,7 @@ address {
    border: 1px solid #ffff;
    width: 1440px;
    height: 300px;
+   padding: 120 0px;
 }
 
 .sk-conteiner {
@@ -188,9 +189,10 @@ address {
    gap: 1px;
    align-items: center;
    width: 1140px;
-   height: 104px;
-   padding-left: 100px;
+   height: 106px;
+   padding: 0px;
    margin-top: 100px;
+   margin-left: 150px;
    
 }
 
@@ -217,8 +219,8 @@ address {
    display: block;
    display: flex;
    width: 264px;
-   height: 102px;
-   margin-right: 24px;
+   height: 104px;
+   margin-right: 22px;
    padding: opx;
 }
 
@@ -233,7 +235,7 @@ address {
    display: block;
    display: flex;
    flex-direction:column;
-   align-items: center;
+ 
 
 }
 
@@ -243,8 +245,8 @@ address {
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
-   margin: auto;
-   margin-top: 1px;
+   margin-left: 0px;
+   margin-top: 10px;
    padding-left: 0px;
    
 }
@@ -254,18 +256,19 @@ address {
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
-   margin: 0;
+   margin-bottom: 5px;
    padding: 0px;
+   padding-top: px;
   
 }
 
 /*--Tem--*/
 
 .tem-section {
-   border: 1px solid #404bbf;
+   border: 1px solid #ffff;
    width: 1440px;
    height: 732px;
-   padding: 0 15px;
+   padding: 120 0px;
    margin: 10 5px;
 }
 
@@ -273,7 +276,8 @@ address {
    background-color: #f4f4fd;
    width: 1128px;
    padding: 0 50px;
-   margin-top: 200px;
+   margin-top: 20px;
+   margin-left: 150px;
    display: block;
    text-align: center;
 }
@@ -281,6 +285,7 @@ address {
 .tem-conteiner {
    display: flex;
    align-items: center;
+   margin: auto;
 }
 
 .tem-title {
@@ -290,7 +295,8 @@ address {
    letter-spacing: 0.02em;
    text-align: center;
    color: #2e2f42;
-   margin-top: 200 0 0 0px;
+   margin-top: 200 0 80 0px;
+   padding-bottom: 80px;
 }
 
 .tem-list {
@@ -302,8 +308,8 @@ address {
 
 .cart-conteiner {
    max-width: 270;
- border-radius: 0 0 2px 2px;
-   padding: 0px 0px 32px 0px;
+ border-radius: 0 0 1px 1px;
+   padding: 0px 0px 2px 0px;
    background-color: #fff;
    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
    display: flex;
@@ -350,28 +356,30 @@ address {
 /*--Portfolio--*/
 
 .portfolo-section {
-   border: 1px solid #404bbf;
+   border: 1px solid #ffff;
    width: 1440px;
-   padding: 0px;
+   padding: 120 0px;
    margin: 0px;
 }
 .portfolo-section-conteiner {
    background-color: #f4f4fd;
    width: 1128px;
    padding: 5px;
-   margin:5px;
+   margin-left: 150px;
    display: block;
    text-align: center;
 }
 
 .portfolo-group-conteiner{
    display: block;
-   text-align: center;
    margin: 5;
    padding: 10px;
 }
 .portf-cart-conteiner {
+   margin-left: 0px;
+   margin-top: 10px;
    padding-left: 0px;
+
 }
 .portfolio-title {
  font-weight: 700;
@@ -388,6 +396,7 @@ address {
    padding-left: 0;
    display: flex;
    gap: 20px;
+   text-align: left;
  
 }
 
@@ -399,7 +408,7 @@ address {
  
 }
 .port-cont-text {
-   margin: auto;
+   margin-left: opx;
    margin-top: 1px;
    padding-left: 0px;
 }
@@ -410,7 +419,7 @@ address {
    line-height: 1.2;
    letter-spacing: 0.02em;
    color: #2e2f42;
-   margin: 0;
+   margin-left: 0;
    padding-left: 0px;
 }
 
@@ -428,15 +437,16 @@ address {
  width: 1440px;
    height: 312px;
    background: #2e2f42;
-   margin: auto;
+   margin: opx;
+   padding: 120 0px;
 }
 
 .footer-conteiner {
    border: 1px solid #404bbf;
    width: 264px;
    height: 112px;
-   padding: 1px;
-   margin: 200px;
+   padding-top: 1px;
+   margin-left: 150px;
    
 }
 .footer-text {
@@ -461,5 +471,6 @@ address {
 .footer-logo-color {
    color: #4D5AE5;
    cursor: pointer;
+   
 }
 
