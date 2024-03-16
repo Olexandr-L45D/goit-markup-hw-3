@@ -84,7 +84,7 @@ address {
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.02em;
-     padding: 24px;
+     padding: 24px 0;
      display: block;
 }
 
@@ -120,7 +120,7 @@ address {
 /*---Hero---*/
 
 .hro-container {
-   width: 1440px;
+   width: 1600px;
    height: 600px;
  
 }
@@ -151,7 +151,7 @@ address {
    letter-spacing: 0.04em;
    text-align: center;
    color: #fff;
-   background: #4d5ae5;
+   background-color: #4d5ae5;
 }
 
 .hero-conteiner-button {
@@ -178,7 +178,18 @@ address {
    padding: 120 0px;
    margin:120px 0px;
 }
-
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+ }
 .ski-conteiner {
    border: 1px solid #ffff;
    display: block;
@@ -210,21 +221,16 @@ address {
  
 }
 
-.skil-paragraf-conteiner {
+.skills-item {
    border: 1px solid #ffff;
    display: block;
    display: flex;
+   align-items: center;
    width: calc((100%-72px)/4);
    height: 104px;
    margin-right: 24px;
-   padding: opx;
-}
-
-.skills-item {
    padding: auto;
    margin: auto;
-   display: flex;
-   align-items: center;
  
 }
 .skil-sab-text-cont {
@@ -271,7 +277,7 @@ address {
    text-align: center;
    margin-left: 150px;
    border: 1px solid #ffff;
-   width: 1128px;
+   width: 1158px;
   
 }
 
@@ -292,20 +298,12 @@ address {
 }
 
 .tem-list {
+   border: 1px solid #e7e9fc;
+   padding-left: 0px;
    margin: 0;
-   padding-left: 0;
    display: flex;
    gap: 24px;
-}
-
-.cart-conteiner {
- width: calc((100%-72px)/4);
- border-radius: 0 0 4px 4px;
-   padding: 0px 0px 2px 0px;
-   background-color: #fff;
-   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-   display: flex;
-   margin-top: 0px;
+ 
 }
 
 .tem-item {
@@ -313,11 +311,19 @@ address {
    border: 1px solid #e7e9fc;
    border-top: none;
    padding: 32px 16px;
+   width: calc((100%-72px)/4);
+   border-radius: 0 0 4px 4px;
+   padding: 0px 0px 2px 0px;
+   background-color: #fff;
+   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+   text-align: center;
    
 }
 
 .tem-imeges {
    display: block;
+   max-width: 100%;
+   height: auto;
 }
 .text-conteiner {
    display: block;
@@ -354,32 +360,18 @@ address {
 
 .portfolo-section {
    padding: 120px 0;
-}
-.portfolo-section-conteiner {
-   background-color: #ffff;
-   width: 1128px;
-   padding: 5px;
-   margin-left: 150px;
-   display: block;
-   text-align: center;
+   
 }
 
 .portfolo-group-conteiner{
-   display: flex;
    display: block;
-   flex-wrap: wrap;
-   column-gap: 24px;
-   row-gap: 48px;
-}
-.portf-cart-conteiner {
-   border-bottom: 1px solid blue;
-   width: calc((100%-48px)/3);
-   display: flex;
-   display: block;
-   column-gap: 24px;
-   row-gap: 48px;
+   text-align: center;
+   margin-left: 170px;
+   margin-left: 170px;
+   width: 1440px;
 
 }
+
 .portfolio-title {
  font-weight: 700;
    font-size: 36px;
@@ -391,28 +383,37 @@ address {
 }
 
 .portfolio-list {
+   padding-left: 0px;
    margin: 0;
-   padding-left: 0;
    display: flex;
-   gap: 20px;
-   text-align: left;
+   flex-wrap: wrap;
+   gap: 24px;
  
 }
 
 .portfolio-item {
    border-bottom: 1px solid blue;
-   border: 1px solid #e7e9fc;
    border-top: none;
    padding: 32px 16px;
+   width: calc((100%-48px)/3);
+   column-gap: 24px;
+   row-gap: 48px;
+   margin-left: 0px;
+   
 }
 
 .portfolio-imeges {
- 
+   display: block;
+   max-width: 100%;
+   height: auto;
 }
 .port-cont-text {
-   margin-left: opx;
+   margin-left: 0px;
    margin-top: 1px;
    padding-left: 0px;
+   text-align: left;
+   
+   
 }
 
 .portf-sabtitle {
@@ -424,6 +425,7 @@ address {
    margin-left: 0;
    margin-bottom: 8px;
    padding-left: 0px;
+   
 }
 
 .portfolio-item-text {
@@ -432,14 +434,16 @@ address {
    letter-spacing: 0.02em;
    color: #434455;
    margin: 0;
+   padding-left: 0px;
+   
 }
 
 /*--Footer--*/
 
 .footer-section {
-   width: 1440px;
+   width: 1600px;
    background: #2e2f42;
-   padding: 100px 0;
+   padding: 120px 0;
 }
 
 .footer-conteiner {
