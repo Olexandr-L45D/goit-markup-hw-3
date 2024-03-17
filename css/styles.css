@@ -338,7 +338,7 @@ address {
    display: block;
    text-align: center;
    border: 1px solid #ffff;
-   width: 1170px;
+   width: 1160px;
    margin: 100px 150px;
   
 
@@ -432,7 +432,7 @@ address {
  margin: 0px;
  padding: 0px;
  max-width: 264px;
- margin-left: 120px;
+ margin-left: 140px;
 }
 
 .footer-link {
@@ -445,7 +445,7 @@ address {
    color: #F4F4FD;
    display: inline-block;
    margin-bottom: 16px;
-   margin-left: 120px;
+   margin-left: 140px;
 }
 
 .footer-logo-color {
