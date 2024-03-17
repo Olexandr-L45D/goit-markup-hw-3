@@ -119,16 +119,11 @@ address {
 
 /*---Hero---*/
 
-.hro-container {
+.hero {
+   background: #2e2f42;
    width: 1440px;
    height: 600px;
    padding: 188px 0;
-}
-
-.hero-conteiner {
-   background: #2e2f42;
-   padding: 188px 0;
-   margin: 0px;
 }
 
 .hero-title {
@@ -149,13 +144,10 @@ address {
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.04em;
-   text-align: center;
    color: #fff;
    background-color: #4d5ae5;
-}
-
-.hero-conteiner-button {
    display: block;
+   text-align: center;
   min-width: 169px;
   height: 56px;
    top: 428px;
@@ -164,10 +156,10 @@ address {
   border: none;
   border-radius: 4px;
   gap: 10px;
- text-align: center;
  cursor: pointer;
  box-shadow: 0 4px 4px 0, rgba 0, 0, 0, 0.15;
- margin-top: 40px;
+ margin-top: 60px;
+ margin-left: 500px;
 }
 
 /*--Skill--*/
@@ -203,16 +195,6 @@ address {
    
 }
 
-.skills-conteiner {
-   display: block;
-   display: flex;
-   align-items: center;
-   
-
-}
-
-
-
 .skills-list {
    margin: 0px;
    padding-left: 0;
@@ -225,20 +207,13 @@ address {
    border: 1px solid #ffff;
    display: block;
    display: flex;
-   align-items: center;
+   text-align: left;
    width: calc((100%-72px)/4);
    height: 104px;
    margin-right: 24px;
    padding: auto;
    margin: auto;
- 
-}
-.skil-sab-text-cont {
-   display: block;
-   display: flex;
    flex-direction:column;
- 
-
 }
 
 .skil-sabtitle {
@@ -250,7 +225,7 @@ address {
    margin-left: 0px;
    margin-bottom: 8px;
    padding-left: 0px;
-   
+   text-align: left;
 }
 
 .skills-item-text {
@@ -278,12 +253,7 @@ address {
    margin-left: 150px;
    border: 1px solid #ffff;
    width: 1158px;
-  
-}
-
-.tem-conteiner {
-   display: block;
-   margin: 100px 30px 100px 180px;
+   margin: 100px 30px 100px 150px;
 
 }
 
@@ -363,12 +333,14 @@ address {
    
 }
 
-.portfolo-group-conteiner{
+.portfolio-container {
+   background-color: #ffff;
    display: block;
    text-align: center;
-   margin-left: 170px;
-   margin-left: 170px;
-   width: 1440px;
+   border: 1px solid #ffff;
+   width: 1170px;
+   margin: 100px 150px;
+  
 
 }
 
@@ -448,6 +420,7 @@ address {
 .footer-conteiner {
    height: 112px;
    padding-top: 1px;
+   padding-left: 150px;
    margin-left: 150px;
    
 }
@@ -459,6 +432,7 @@ address {
  margin: 0px;
  padding: 0px;
  max-width: 264px;
+ margin-left: 120px;
 }
 
 .footer-link {
@@ -471,6 +445,7 @@ address {
    color: #F4F4FD;
    display: inline-block;
    margin-bottom: 16px;
+   margin-left: 120px;
 }
 
 .footer-logo-color {
