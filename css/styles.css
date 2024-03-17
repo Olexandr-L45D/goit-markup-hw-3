@@ -413,7 +413,7 @@ address {
 
 /*--Footer--*/
 
-.footer-section {
+.footer {
    width: 1440px;
    background: #2e2f42;
    padding: 100px 0;
@@ -434,7 +434,7 @@ address {
  margin: 0px;
  padding: 0px;
  max-width: 264px;
- margin-left: 140px;
+ 
 }
 
 .footer-link {
@@ -447,7 +447,7 @@ address {
    color: #F4F4FD;
    display: inline-block;
    margin-bottom: 16px;
-   margin-left: 140px;
+   
 }
 
 .footer-logo-color {
