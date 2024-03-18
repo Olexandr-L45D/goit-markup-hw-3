@@ -233,7 +233,7 @@ address {
    color: #434455;
    margin-bottom: 5px;
    padding: 0px;
-   padding-top: px;
+   
   
 }
 
@@ -398,8 +398,7 @@ address {
 footer {
    background: #2e2f42;
    padding: 100px 0px;
-   
-   
+    
 }
 
 .footer-conteiner {
