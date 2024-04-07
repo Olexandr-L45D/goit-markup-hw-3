@@ -122,7 +122,6 @@ address {
 .hero {
    background: #2e2f42;
    width: 1440px;
-   height: 600px;
    padding: 188px 0;
 }
 
@@ -134,7 +133,6 @@ address {
    text-align: center;
    color: #fff;
    max-width: 496px;
-   height: 120px;
    margin: auto;
    padding: 0px;
 }
@@ -187,9 +185,8 @@ address {
    gap: 24px;
    align-items: center;
    width: calc(100%-4*24);
-   height: 104px;
    padding: 0 0px;
-   margin-left: 150px 120px; 
+   margin-left: 120px; 
    
 }
 
